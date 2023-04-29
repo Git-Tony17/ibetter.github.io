@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    background-color: #254b56;
+    justify-content: space-between;
+    padding: 25px 5px;
+}
+
+header .logo{
+    display: flex;
+    margin-right: 0px 15px;
+    align-items: center;
+    color: aliceblue;
+}
+
+header h2{
+    color: white;
+    padding-left: 250px;
+}
+
+header a{
+    font-weight: 600;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    color: #288ba8;
+}
+
+#productos{
+    background-color: #bbc0c6;
+    color: white;
+    text-align: center;
+}
+
+#productos h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+#productos h1,
+#productos h2,
+#productos p{
+    color: black;
+}
+
+#productos .container{
+    padding: 150px;
+}
+
+#productos .cell{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#productos .iphone{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 5px;
+    padding: 30px 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.iphone:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+
+.img-cell{
+    padding: 15px 10px;
+    align-items: center;
+    border-radius: 10%;
+    height: 50vh;
+}
+
+#productos .watch{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#productos .appleW{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 5px;
+    padding: 50px 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.appleW:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+
+.img-watch{
+    padding: 15px 10px;
+    align-items: center;
+    border-radius: 10%;
+    height: 50vh;
+}
+
+#productos .air{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#productos .airpods{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 5px;
+    padding: 50px 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.airpods:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+
+.img-air{
+    padding: 15px 10px;
+    align-items: center;
+    border-radius: 10%;
+    height: 50vh;
+}
